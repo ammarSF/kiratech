@@ -37,3 +37,7 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### View the App in Your Browser
+
+After starting the development server, open [http://localhost:5173](http://localhost:5173) in your browser to view the app.
