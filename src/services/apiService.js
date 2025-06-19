@@ -4,7 +4,7 @@ const apiClient = axios.create({
   baseURL: 'https://randomuser.me/api/', 
   headers: {
     'Content-Type': 'application/json',
-    // 'Authorization': 'Bearer YOUR_TOKEN_HERE' 
+    // 'Authorization': 
   },
   // timeout: 10000, 
 });

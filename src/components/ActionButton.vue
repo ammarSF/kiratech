@@ -29,19 +29,17 @@
 </template>
 
 <script setup lang="ts">
-// Props definition
 defineProps({
-  // The specific action this button should perform (e.g., 'refresh-users')
   action: {
     type: String,
     required: true
   },
-  // Controls the loading state and disables the button
+
   loading: {
     type: Boolean,
     default: false
   },
-  // The text displayed on the button
+  
   text: {
     type: String,
     required: true
